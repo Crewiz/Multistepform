@@ -1,0 +1,55 @@
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-field {
+    margin-bottom: 16px;
+  }
+  
+  .form-error {
+    color: red;
+    margin-top: 4px;
+  }
+  
+  .step-indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .step-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 4px;
+  }
+  
+  .step-dot.active {
+    background-color: teal;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+  }
+  
+  .button {
+    margin-left: 8px;
+  }
+  
+  
